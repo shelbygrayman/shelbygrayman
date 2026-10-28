@@ -22,6 +22,10 @@ I like small tools that explain what they do, keep their limits visible, and giv
 
 Latest validation, **25 October 2026**: the four existing projects passed 74 regression tests. EvidenceBench passed 10 additional tests and evaluated all 300 BEIR SciFact test queries over 5,183 documents. Each repository records its own validation scope; this is a dated snapshot, not a permanent uptime guarantee.
 
+
+
+**Latest experiment:** [Sourcekeep keyword retrieval on 300 SciFact test queries](https://github.com/shelbygrayman/evidencebench/blob/main/SOURCEKEEP-RESULTS.md), with per-query rankings, reproducible commands and documented limits. This evaluates the search core in Node; the full dataset exceeds the app's normal import limits.
+
 Currently exploring: better retrieval evaluation, private browser search, and evidence that others can reproduce.
 
 [X / @tommyblinder_](https://x.com/tommyblinder_)
