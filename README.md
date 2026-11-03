@@ -34,7 +34,7 @@ Wallet requests, token approvals, master files, search results. Each tool shows 
 - Raw benchmark results with the data, settings and limitations alongside them.
 - Useful tools before broad claims. Passing tests does not mean zero bugs, and an intact excerpt does not establish truth.
 
-Latest validation, **3 November 2026**: Read Before Sign, Approval Lens and Loudness Lens passed 60 tests, including a session with the official MCP TypeScript SDK client and the EBU Tech 3341 and 3342 loudness cases. Loudness Lens matches ffmpeg's ebur128 to 0.1 LU on every benchmark case. Calldata Lens (16 tests) and Typed Intent (9 tests) were re-run the same day.
+Latest validation, **3 November 2026**: Read Before Sign, Approval Lens and Loudness Lens passed 64 tests, including a session with the official MCP TypeScript SDK client and the EBU Tech 3341 and 3342 loudness cases. Loudness Lens matches ffmpeg's ebur128 to 0.1 LU on every benchmark case. Calldata Lens (16 tests) and Typed Intent (9 tests) were re-run the same day.
 
 Earlier snapshot, 25 October 2026: four projects passed 74 regression tests; EvidenceBench passed 10 more and evaluated all 300 BEIR SciFact test queries over 5,183 documents. Each repository records its own validation scope; these are dated snapshots, not uptime guarantees.
 
