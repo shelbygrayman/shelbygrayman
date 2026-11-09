@@ -4,6 +4,19 @@ Musician building small tools that read things before you trust them.
 
 Wallet requests, token approvals, master files, search results. Each tool shows what it checked, what it could not, and gives you a way to verify it yourself.
 
+## Test an MCP client incompatibility
+
+[MCP Client Lab](https://github.com/shelbygrayman/mcp-client-lab) replays tool catalogs and captured results through pinned SDK clients, runtime restrictions and validators. Find whether discovery fails or a captured output is rejected, without an API key or a running server.
+
+```sh
+git clone https://github.com/shelbygrayman/mcp-client-lab.git
+cd mcp-client-lab
+npm ci
+npm run demo
+```
+
+[Measured evidence](https://github.com/shelbygrayman/mcp-client-lab/blob/main/BENCHMARKS.md) · [Use your own capture](https://github.com/shelbygrayman/mcp-client-lab#check-your-own-catalog-and-captured-results) · [CI integration](https://github.com/shelbygrayman/mcp-client-lab/blob/main/examples/consumer-ci.yml)
+
 ## Read before you sign
 
 | Project | What it does | Try it |
@@ -34,7 +47,7 @@ Wallet requests, token approvals, master files, search results. Each tool shows 
 - Raw benchmark results with the data, settings and limitations alongside them.
 - Useful tools before broad claims. Passing tests does not mean zero bugs, and an intact excerpt does not establish truth.
 
-Latest validation, **3 November 2026**: Read Before Sign, Approval Lens and Loudness Lens passed 64 tests, including a session with the official MCP TypeScript SDK client and the EBU Tech 3341 and 3342 loudness cases. Loudness Lens matches ffmpeg's ebur128 to 0.1 LU on every benchmark case. Calldata Lens (16 tests) and Typed Intent (9 tests) were re-run the same day.
+Validation snapshot, **3 November 2026**: Read Before Sign, Approval Lens and Loudness Lens passed 64 tests, including a session with the official MCP TypeScript SDK client and the EBU Tech 3341 and 3342 loudness cases. Loudness Lens matches ffmpeg's ebur128 to 0.1 LU on every benchmark case. Calldata Lens (16 tests) and Typed Intent (9 tests) were re-run the same day.
 
 Earlier snapshot, 25 October 2026: four projects passed 74 regression tests; EvidenceBench passed 10 more and evaluated all 300 BEIR SciFact test queries over 5,183 documents. Each repository records its own validation scope; these are dated snapshots, not uptime guarantees.
 
