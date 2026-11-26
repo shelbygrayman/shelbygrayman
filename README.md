@@ -2,7 +2,15 @@
 
 I build developer tools that make compatibility failures and hidden assumptions easier to inspect. Musician, open source builder, and a believer in evidence you can rerun.
 
-## Start here: MCP Client Lab
+## Start here for crypto tooling
+
+I built Recover402 to help answer a question that comes up when a paid API request times out. Did the payment settle, and did the caller get what it paid for?
+
+Try the Base USDC replay in the README. It groups 40 published x402 calls by purchase intent. You can inspect the transaction hashes behind each count and run the checks locally with Python.
+
+[Run the Recover402 replay](https://github.com/shelbygrayman/recover402#replay-the-base-retry-study) · [Inspect EIP-712 signing data](https://github.com/shelbygrayman/typed-intent) · [Explain a wallet request](https://github.com/shelbygrayman/read-before-sign)
+
+## MCP Client Lab
 
 [Replay a captured MCP catalog](https://github.com/shelbygrayman/mcp-client-lab) through pinned SDK clients, runtime restrictions and validators. Find whether discovery fails or captured output is rejected. No model API key or running server required.
 
